@@ -12,6 +12,7 @@ public class Main
 	System.out.print("2. kenarı giriniz: ");
 	b=sc.nextInt();
 	
+
 	c=Math.sqrt(b*b+a*a);
 	System.out.print("Hipotenüs uzunluğu: "+c);
 	}
