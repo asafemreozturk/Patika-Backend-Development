@@ -16,11 +16,11 @@ public class PowerOfTwo
 		    sonuc=Math.pow(2,num);
 		    System.out.println("Üslü sayının sonucu: "+sonuc);
 		}
-        else if(num<0){
-            num=0-num;
-            sonuc=1/(Math.pow(2,num));
-            System.out.println("Üslü sayının sonucu: "+sonuc);
-        }
+		else if(num<0){
+		    num=0-num;
+		    sonuc=1/(Math.pow(2,num));
+		    System.out.println("Üslü sayının sonucu: "+sonuc);
+		}
 
 		
 	}
