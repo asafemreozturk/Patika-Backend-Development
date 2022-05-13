@@ -9,17 +9,17 @@ public class Power
 		System.out.print("Base : ");
 		base=sc.nextInt();
 		System.out.print("Power : ");
-	    power=sc.nextInt();
+	    	power=sc.nextInt();
         
-        if(power==0){
-            result=1;
-        } else {
-            for(int a=1;a<=power;a++){
-                result=result*base;
-            }
-            
-        }
-   
-		System.out.println("Result : "+result); 
-	}
+		if(power==0){
+		    result=1;
+		} else {
+		    for(int a=1;a<=power;a++){
+			result=result*base;
+		    }
+
+		}
+
+			System.out.println("Result : "+result); 
+		}
 }
